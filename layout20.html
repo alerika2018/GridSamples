@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Basic Grid: Poem</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="common-styles.css">
+  <style>
+ .wrapper{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: repeat(3, 1fr);
+      row-gap: .3rem;
+      column-gap: .3rem;
+      background-color:black;
+      height:100vh;
+      padding: 0;
+    }
+    body {
+      margin: 0;
+      box-sizing:content-box;
+    }
+    .item{
+      display: grid;
+      grid-template-columns: 30% 70%;     
+    }
+    .item-number{
+      font-size: 8vw;
+      color:midnightblue;
+      justify-self: center;
+      align-self: center;
+      padding: 20px;
+      background-color: rgb(187, 172, 123,.6);
+    }
+    .item-description{
+      font-size: 1vw;
+      grid-column: 2/3;
+      display: flex;
+      align-items: center;
+      justify-content: left;
+    }
+
+
+
+
+  </style>
+
+
+</head>
+<header class="header_layout">
+  <h1>Layout #20</h1>
+</header>
+<body>
+
+<ul class="wrapper">
+  <li class="item item1">
+    <div class="item-number">1</div>
+    <div class="item-description">
+      `Twas brillig, and the slithy toves<br>
+        Did gyre and gimble in the wabe:<br>
+      All mimsy were the borogoves,<br>
+        And the mome raths outgrabe.
+    </div>
+  </li>
+
+  <li class="item item2">
+    <div class="item-number">2</div>
+    <div class="item-description">
+      “Beware the Jabberwock, my son!<br>
+        The jaws that bite, the claws that catch!<br>
+      Beware the Jubjub bird, and shun<br>
+        The frumious Bandersnatch!”
+    </div>
+  </li>
+
+  <li class="item item3">
+    <div class="item-number">3</div>
+    <div class="item-description">
+      He took his vorpal sword in hand:<br>
+        Long time the manxome foe he sought &mdash;<br>
+      So rested he by the Tumtum tree,<br>
+        And stood awhile in thought.
+    </div>
+  </li>
+
+  <li class="item item4">
+    <div class="item-number">4</div>
+    <div class="item-description">
+      And, as in uffish thought he stood,<br>
+        The Jabberwock, with eyes of flame,<br>
+      Came whiffling through the tulgey wood,<br>
+        And burbled as it came!
+    </div>
+  </li>
+
+  <li class="item item5">
+    <div class="item-number">5</div>
+    <div class="item-description">
+      One, two! One, two! And through and through<br>
+            The vorpal blade went snicker-snack!<br>
+      He left it dead, and with its head<br>
+            He went galumphing back.
+    </div>
+  </li>
+
+  <li class="item item6">
+    <div class="item-number">6</div>
+    <div class="item-description">
+      One, two! One, two! And through and through<br>
+        The vorpal blade went snicker-snack!<br>
+      He left it dead, and with its head<br>
+        He went galumphing back.
+    </div>
+  </li>
+
+  <li class="item item7">
+    <div class="item-number">7</div>
+    <div class="item-description">
+      “And, has thou slain the Jabberwock?<br>
+        Come to my arms, my beamish boy!<br>
+      O frabjous day! Callooh! Callay!”<br>
+        He chortled in his joy.
+    </div>
+  </li>
+
+  <li class="item item8">
+    <div class="item-number">8</div>
+    <div class="item-description">
+      `Twas brillig, and the slithy toves<br>
+        Did gyre and gimble in the wabe;<br>
+      All mimsy were the borogoves,<br>
+        And the mome raths outgrabe.
+    </div>
+  </li>
+
+  <li class="item item9">
+    <div class="item-number">9</div>
+    <div class="item-description">
+      `Twas brillig, and the slithy toves<br>
+        Did gyre and gimble in the wabe;<br>
+      All mimsy were the borogoves,<br>
+        And the mome raths outgrabe.
+    </div>
+  </li>
+
+  <!-- <li class="item item10">
+    <div class="item-number">10</div>
+    <div class="item-description">
+      `Twas brillig, and the slithy toves<br>
+        Did gyre and gimble in the wabe;<br>
+      All mimsy were the borogoves,<br>
+        And the mome raths outgrabe.
+    </div>
+  </li>
+
+  <li class="item item11">
+    <div class="item-number">11</div>
+    <div class="item-description">
+      `Twas brillig, and the slithy toves<br>
+        Did gyre and gimble in the wabe:<br>
+      All mimsy were the borogoves,<br>
+        And the mome raths outgrabe.
+    </div>
+  </li>
+
+  <li class="item item12">
+    <div class="item-number">12</div>
+    <div class="item-description">
+      “Beware the Jabberwock, my son!<br>
+        The jaws that bite, the claws that catch!<br>
+      Beware the Jubjub bird, and shun<br>
+        The frumious Bandersnatch!”
+    </div>
+  </li> -->
+
+
+</ul>
+<div class="previous_next">
+  <a href="layout19.html" >Previous</a>
+  <!-- <a href="layout20.html" >Next</a> -->
+</div>
+
+
+</body>
+</html>
